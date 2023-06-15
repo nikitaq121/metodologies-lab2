@@ -162,7 +162,7 @@ class CircularList {
   }
 
   findLast(data) {
-    let indOfList = 0;
+    let indOfList = 7;
     let indLast;
     let tmp = this.head;
     while (tmp.next !== this.head) {
